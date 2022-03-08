@@ -23,7 +23,7 @@ Console.WriteLine($"Nous avons en tout {unite2.Count} couples");
 
 Console.WriteLine(String.Join(Environment.NewLine, unite2));
 
-Console.WriteLine();
+Console.WriteLine(Environment.NewLine);
 
 var chunked = ChunkBy(unite2, 3);
 
